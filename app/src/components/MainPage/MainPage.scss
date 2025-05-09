@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+
+  &__navigation {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__sortings {
+    position: relative;
+    width: 100px;
+    background-color: lightblue;
+  }
+
+  &__sortings-list {
+    flex-direction: column;
+    list-style: none;
+    background-color: inherit;
+    width: inherit;
+    display: none;
+    position: absolute;
+    
+    &.isActive {
+      display: flex;
+    }
+  }
+
+  &__sortings-item {
+    padding: 16px;
+  }
+
+  &__add-button {
+    cursor: pointer;
+  }
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

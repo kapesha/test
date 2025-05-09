@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "892752",
+      "name": "щось ",
+      "imageUrl": "https://bowerandbranch.com/cdn/shop/products/ReliancePeach2.png?v=1643987859",
+      "count": 1,
+      "weight": "100",
+      "size": {
+        "width": 200,
+        "height": 300
+      },
+      "comments": []
+    }
+  ],
+  "comment": [
+    {
+      "id": "3",
+      "productId": 1,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    }
+  ]
+}
